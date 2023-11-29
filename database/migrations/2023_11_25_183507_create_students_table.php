@@ -20,8 +20,8 @@ return new class extends Migration
             $table->string('student_id')->unique();
             $table->string('first_name');
             $table->string('last_name');
-            $table->enum('gender', ['M', 'F']);
-            $table->date('birth_date');
+            $table->enum('gender', ['M', 'F'])->nullable();
+            $table->string('birth_date')->nullable();
             $table->string('email')->unique();
             $table->string('phone', 10);
             $table->foreignIdFor(Option::class)->constrained();

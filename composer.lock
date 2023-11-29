@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f1067b2fe6b0411d8d2c608f52bbb739",
+    "content-hash": "4a6fdf31c1e9e99fe36caf343ecbe498",
     "packages": [
         {
             "name": "abanoubnassem/filament-phone-field",

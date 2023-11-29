@@ -39,7 +39,7 @@ class StudentResource extends Resource
                 TextInput::make('student_id')->label("Matricule"),
                 TextInput::make('first_name')->label("Nom"),
                 TextInput::make('last_name')->label("Prénom"),
-                DatePicker::make('birth_date')->label("Date de naissance")->placeholder('01/02/2020'),
+                TextInput::make('birth_date')->label("Date de naissance")->placeholder('01/02/2020'),
                 TextInput::make('email')->label("Email")->prefixIcon('heroicon-m-inbox-arrow-down'),
                 PhoneInput::make('phone')->label("Telephone")->tel()->placeholder("0711113420"),
                 Select::make('gender')

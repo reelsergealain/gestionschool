@@ -13,6 +13,7 @@ return new class extends Migration
      */
     public function up(): void
     {
+        // Modèle pour stocker les notes des étudiants
         Schema::create('grades', function (Blueprint $table) {
             $table->id();
             $table->foreignIdFor(Student::class)->constrained()->onDelete('cascade');
